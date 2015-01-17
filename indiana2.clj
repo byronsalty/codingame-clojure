@@ -20,8 +20,8 @@
      1 (tl [x (inc y)] [x (inc y)] [x (inc y)])
      2 (tl [-1 -1] [(inc x) y] [(dec x) y])
      3 (tl [x (inc y)] [-1 -1] [-1 -1])
-     4 (tl [(dec x) y] [-1 -1] [x (inc y)]))
-     5 (tl [(inc x) y] [x (inc y)] [-1 -1]))
+     4 (tl [(dec x) y] [-1 -1] [x (inc y)])
+     5 (tl [(inc x) y] [x (inc y)] [-1 -1])
      6 (tl [-1 -1] [(inc x) y] [(dec x) y])
      7 (tl [x (inc y)] [-1 -1] [x (inc y)])
      8 (tl [-1 -1] [x (inc y)] [x (inc y)])
@@ -47,7 +47,7 @@
      11 (rot 10 12)
      12 (rot 11 13)
      13 (rot 12 10)
-     }
+     })
 
 (defn readn []
     (Integer. (read)))
